@@ -1,3 +1,3 @@
 source "https://rubygems.org"
 
-raise "bad install" if ARGV.detect {|arg| arg.match(/install/)}
+raise "error in gemfile" if ARGV.detect {|arg| arg.match(/platform/)}
