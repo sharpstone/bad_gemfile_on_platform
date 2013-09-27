@@ -1,3 +1,4 @@
 source "https://rubygems.org"
 
-raise "error in gemfile" if ARGV.detect {|arg| arg.match(/platform/)}
+raise "Zomg der was a problem in da gemfile"
+
